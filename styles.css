@@ -74,15 +74,6 @@ a {
 }
 
 a:hover {
-  color: #ddd;
+  color: #fff;
   font-weight: bold;
-  text-transform: uppercase;
-}
-
-a:hover::before {
-  content: "> ";
-}
-
-a:hover::after {
-  content: " <";
 }
