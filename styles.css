@@ -89,7 +89,8 @@ a:hover {
   outline: none;
   background-color: #080808;
   color: #bbb;
-  cursor: pointer; 
+  cursor: pointer;
+  height: same-as-width;
   padding: 1rem;
   border-radius: 50%;
   font-size: 18px;
