@@ -112,3 +112,18 @@ a:hover {
   font-weight: 300;
   color: #fff;
 }
+
+.btn {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 4px;
+}
+
+.btn-outline-white {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn-outline-white:hover {
+  background-color: #fff;
+}
