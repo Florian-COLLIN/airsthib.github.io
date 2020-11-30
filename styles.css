@@ -38,10 +38,16 @@ p {
   paadding-right: 4rem;
 }
 
-.mainDiv {
+.container {
   padding: 0;
   height: 100%;
-  display: inline-block;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.resumeDiv {
+  flex: 4;
 }
 
 .summaryDiv {
@@ -50,9 +56,12 @@ p {
   border-left: #ddd;
   text-align: right;
   padding: 1rem;
+  padding-right: 0em;
   height: 100%;
-  float: right;
   width: 12rem;
+  display: inline-block;
+  align-self: flex-end;
+  flex: 1;
 }
 
 .summaryDiv h2 {
