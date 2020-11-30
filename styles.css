@@ -3,8 +3,10 @@
   src: url("SourceSansPro-Regular.otf");
 }
 
-html {
+html, body {
   height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -12,7 +14,6 @@ body {
   color: #fff;
   font-family: "SourceSansPro", sans-serif;
   font-weight: 300;
-  height: 100%;
 }
 
 h1, h2 {
