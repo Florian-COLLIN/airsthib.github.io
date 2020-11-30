@@ -40,6 +40,8 @@ p {
 
 .mainDiv {
   padding: 0;
+  height: 100%;
+  display: inline-block;
 }
 
 .summaryDiv {
