@@ -129,3 +129,9 @@ a:hover {
   background-color: #fff;
   color: #222;
 }
+
+.separator {
+  border-right: 1px solid #bbb;
+  padding-right: 0.5rem;
+  margin-right: 0.5rem;
+}
