@@ -1,6 +1,7 @@
 body {
   background: #222;
   color: #fff;
+  font-family: sans-serif;
 }
 
 h1 {
@@ -10,4 +11,12 @@ h1 {
 .mainDiv {
   padding: 4rem;
   padding-top: 12rem;
+}
+
+a {
+ color: #bbf; 
+}
+
+a:hover {
+  color: #bbb;
 }
