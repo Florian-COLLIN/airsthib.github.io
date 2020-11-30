@@ -48,7 +48,9 @@ p {
   border-left: #ddd;
   text-align: right;
   padding: 1rem;
-  height: 100vh;
+  height: 100%;
+  float: right;
+  width: 12rem;
 }
 
 .summaryDiv h2 {
