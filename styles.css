@@ -87,12 +87,10 @@ a:hover {
   z-index: 99;
   border: #666;
   outline: none;
-  background-color: #000;
-  color: #fff;
+  background-color: #080808;
+  color: #bbb;
   cursor: pointer; 
   padding: 15px;
-  height: 24px;
-  width: 24px;
   border-radius: 12px;
   font-size: 18px;
   transition-duration: 0.5s;
@@ -102,6 +100,11 @@ a:hover {
   background-color: #000;
 }
 
+#btnTop a {
+  color: #bbb;
+}
+
 #btnTop a:hover {
   font-weight: 300;
+  color: #fff;
 }
