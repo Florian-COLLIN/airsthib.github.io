@@ -131,6 +131,10 @@ a:hover {
 }
 
 .separator {
+  margin-right: 1rem;
+}
+
+.separator-line {
   border-right: 1px solid #bbb;
   padding-right: 0.5rem;
   margin-right: 0.5rem;
