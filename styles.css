@@ -145,3 +145,9 @@ a:hover {
   color: #999;
   font-size: 0.8rem;
 }
+
+.logo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
