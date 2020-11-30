@@ -37,6 +37,10 @@ h2 {
   padding: 1rem;
 }
 
+.summaryDiv h2 {
+  color: #ddd;
+}
+
 a {
  color: #bbd;
  text-decoration: none;
