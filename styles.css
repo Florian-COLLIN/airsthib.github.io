@@ -64,6 +64,7 @@ a {
 a:hover {
   color: #ddd;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 a:hover::before {
