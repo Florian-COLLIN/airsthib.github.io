@@ -56,13 +56,13 @@ p {
 }
 
 a {
-  color: #bbd;
+  color: #bbc;
   text-decoration: none;
   transition-duration: 0.5s;
 }
 
 a:hover {
-  color: #bbb;
+  color: #ddd;
   font-weight: bold;
 }
 
