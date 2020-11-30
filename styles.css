@@ -10,16 +10,27 @@ body {
   font-weight: 300;
 }
 
-h1 {
+h1, h2 {
   color: #bbb;
   font-weight: 500;
-  font-size: 3rem;
   text-variant: small-caps;
+}
+
+h1 {
+  font-size: 3rem; 
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 .mainDiv {
   padding: 4rem;
   padding-top: 8rem;
+}
+
+summaryDiv {
+  clip-path: polygon(80% 0%, 60% 100%, 100% 100%, 100% 0%);
 }
 
 a {
