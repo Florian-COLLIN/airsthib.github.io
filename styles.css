@@ -52,11 +52,10 @@ p {
 
 .summaryDiv {
   clip-path: polygon(32% 0%, 0% 100%, 100% 100%, 100% 0%);
-  background: #444;
+  background: #333;
   border-left: #ddd;
   text-align: right;
   padding: 1rem;
-  padding-right: 0em;
   height: 100%;
   width: 12rem;
   display: inline-block;
