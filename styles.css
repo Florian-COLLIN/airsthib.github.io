@@ -3,13 +3,17 @@
   src: url("SourceSansPro-Regular.otf");
 }
 
-html, body {
+html {
   height: 400%;
+}
+
+html, body {
   margin: 0px;
   padding: 0px;
 }
 
 body {
+  height: 100%
   background: #222;
   color: #fff;
   font-family: "SourceSansPro", sans-serif;
