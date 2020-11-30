@@ -122,8 +122,10 @@ a:hover {
 .btn-outline-white {
   border: 1px solid #fff;
   color: #fff;
+  background: #222;
 }
 
 .btn-outline-white:hover {
   background-color: #fff;
+  color: #222;
 }
