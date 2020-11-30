@@ -6,3 +6,8 @@ body {
 h1 {
   color: #ddd;
 }
+
+.mainDiv {
+  padding: 4rem;
+  padding-top: 12rem;
+}
