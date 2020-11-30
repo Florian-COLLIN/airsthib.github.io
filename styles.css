@@ -90,7 +90,7 @@ a:hover {
   background-color: #080808;
   color: #bbb;
   cursor: pointer; 
-  padding: 2rem;
+  padding: 0.5rem;
   border-radius: 50%;
   font-size: 18px;
   transition-duration: 0.5s;
