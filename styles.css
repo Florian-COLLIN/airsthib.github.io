@@ -62,4 +62,13 @@ a {
 
 a:hover {
   color: #bbb;
+  font-weight: bold;
+}
+
+a:hover::before {
+  content: "> ";
+}
+
+a:hover::after {
+  content: " <";
 }
