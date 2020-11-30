@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  background: #222;
+  background: linear-gradient(70deg, #222, #282828);
   color: #fff;
   font-family: "SourceSansPro", sans-serif;
   font-weight: 300;
@@ -47,7 +47,7 @@ p {
 }
 
 .resumeDiv {
-  flex: 4;
+  flex: 3;
 }
 
 .summaryDiv {
