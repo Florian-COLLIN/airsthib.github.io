@@ -90,11 +90,14 @@ a:hover {
   background-color: #080808;
   color: #bbb;
   cursor: pointer;
-  height: same-as-width;
+  height: 3.6rem;
+  width: 3.6rem;
   padding: 1rem;
   border-radius: 50%;
   font-size: 18px;
   transition-duration: 0.5s;
+  text-align: center;
+  vertical-align: middle;
 }
 
 #btnTop:hover {
@@ -102,7 +105,7 @@ a:hover {
 }
 
 #btnTop a {
-  color: #bbb;
+  color: #bbb; 
 }
 
 #btnTop a:hover {
