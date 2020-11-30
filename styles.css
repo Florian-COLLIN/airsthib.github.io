@@ -94,11 +94,9 @@ a:hover {
   width: 2rem;
   padding: 1rem;
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 1.2rem;;
   transition-duration: 0.5s;
   text-align: center;
-  display: flex;
-  align-items: center;
 }
 
 #btnTop:hover {
@@ -107,6 +105,7 @@ a:hover {
 
 #btnTop a {
   color: #bbb;
+  vertical-align: middle;
 }
 
 #btnTop a:hover {
