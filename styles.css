@@ -11,15 +11,15 @@ body {
 }
 
 h1 {
-  color: #ddd;
+  color: #bbb;
   font-weight: 500;
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: capitalize;
 }
 
 .mainDiv {
   padding: 4rem;
-  padding-top: 12rem;
+  padding-top: 8rem;
 }
 
 a {
