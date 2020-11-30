@@ -90,13 +90,14 @@ a:hover {
   background-color: #080808;
   color: #bbb;
   cursor: pointer;
-  height: 2rem;
-  width: 2rem;
+  height: 1.2rem;
+  width: 1.2rem;
   padding: 0.5rem;
   border-radius: 50%;
   font-size: 1rem;
   transition-duration: 0.5s;
   text-align: center;
+  box-shadow: 2px 2px #111;
 }
 
 #btnTop:hover {
