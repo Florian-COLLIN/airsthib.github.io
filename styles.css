@@ -20,7 +20,6 @@ h1, h2 {
   color: #bbb;
   font-weight: 500;
   text-variant: small-caps;
-  padding: 4rem;
   padding-top: 8rem;
   padding-bottom: 0;
 }
@@ -48,6 +47,8 @@ p {
 
 .resumeDiv {
   flex: 3;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .summaryDiv {
@@ -56,6 +57,7 @@ p {
   border-left: #ddd;
   text-align: right;
   padding: 1rem;
+  padding-left: 4rem;
   height: 100%;
   width: 12rem;
   display: inline-block;
@@ -65,6 +67,7 @@ p {
 
 .summaryDiv h2 {
   color: #ddd;
+  
 }
 
 a {
