@@ -14,6 +14,7 @@ h1 {
   color: #ddd;
   font-weight: 500;
   font-size: 4rem;
+  text-transform: capitalize;
 }
 
 .mainDiv {
