@@ -1,7 +1,12 @@
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("SourceSansPro-Regular.otf");
+}
+
 body {
   background: #222;
   color: #fff;
-  font-family: sans-serif;
+  font-family: "SourceSansPro", sans-serif;
 }
 
 h1 {
