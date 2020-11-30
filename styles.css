@@ -30,10 +30,11 @@ h2 {
 }
 
 .summaryDiv {
-  clip-path: polygon(80% 0%, 60% 100%, 100% 100%, 100% 0%);
+  clip-path: polygon(50% 0%, 100% 100%, 100% 100%, 100% 0%);
   background: #444;
   border-left: #ddd;
   text-align: right;
+  padding: 1rem;
 }
 
 a {
