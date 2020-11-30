@@ -91,11 +91,17 @@ a:hover {
   color: #fff;
   cursor: pointer; 
   padding: 15px;
-  border-radius: 18px;
+  height: 24px;
+  width: 24px
+  border-radius: 12px;
   font-size: 18px;
   transition-duration: 0.5s;
 }
 
 #btnTop:hover {
   background-color: #000;
+}
+
+#btnTop a:hover {
+  font-weight: 300;
 }
