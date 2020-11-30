@@ -91,8 +91,9 @@ a:hover {
   color: #fff;
   cursor: pointer; 
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 18px;
   font-size: 18px;
+  transition-duration: 0.5s;
 }
 
 #btnTop:hover {
