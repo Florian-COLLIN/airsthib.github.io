@@ -92,7 +92,7 @@ a:hover {
   cursor: pointer; 
   padding: 15px;
   height: 24px;
-  width: 24px
+  width: 24px;
   border-radius: 12px;
   font-size: 18px;
   transition-duration: 0.5s;
