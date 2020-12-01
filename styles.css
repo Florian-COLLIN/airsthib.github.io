@@ -107,9 +107,10 @@ a:hover {
 }
 
 #btnTop a {
-  color: #bbb;
-  vertical-align: middle;
-  line-height: inherit;
+  color: #bbb;position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #btnTop a:hover {
@@ -118,8 +119,10 @@ a:hover {
 }
 
 #btnTop a i {
-  vertical-align: middle;
-  line-height: inherit;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .btn {
