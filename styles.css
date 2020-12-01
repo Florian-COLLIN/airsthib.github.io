@@ -90,8 +90,8 @@ a:hover {
   background-color: #111;
   color: #bbb;
   cursor: pointer;
-  height: 2rem;
-  width: 2rem;
+  height: 3rem;
+  width: 3rem;
   border-radius: 50%;
   font-size: 1rem;
   transition-duration: 0.25s;
