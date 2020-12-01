@@ -99,10 +99,6 @@ a:hover {
   box-shadow: 2px 2px #181818;
 }
 
-#btnTop:hover {
-  background: radial-gradient(#333, #222);
-}
-
 .btn {
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
   margin: 0.5rem 0 0.5rem 0;
