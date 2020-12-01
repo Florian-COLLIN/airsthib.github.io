@@ -192,3 +192,7 @@ a:hover {
   clip-path: circle(39%);
   float: left;
 }
+
+#end {
+  margin-top: 4rem;
+}
