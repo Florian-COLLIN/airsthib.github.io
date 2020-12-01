@@ -154,13 +154,13 @@ a:hover {
 }
 
 .btn-outline-orange {
-  border: 1px solid #f16666;
-  color: #f16666;
+  border: 1px solid #f16600;
+  color: #f16600;
   background: #222;
 }
 
 .btn-outline-orange:hover {
-  background-color: #f16666;
+  background-color: #f16600;
   color: #fff;
 }
 
