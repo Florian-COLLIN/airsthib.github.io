@@ -156,13 +156,13 @@ a:hover {
 }
 
 .btn-outline-red {
-  border: 1px solid #cc2626;
-  color: #cc2626;
+  border: 1px solid #9f1d1d;
+  color: #9f1d1d;
   background: #222;
 }
 
 .btn-outline-red:hover {
-  background-color: #cc2626;
+  background-color: #9f1d1d;
   color: #fff;
 }
 
