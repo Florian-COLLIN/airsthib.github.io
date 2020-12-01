@@ -148,5 +148,9 @@ a:hover {
 
 .logo {
   height: 16rem;
+  margin: 1rem;
+  margin-left: 4rem;
+  margin-top: 8rem;
   clip-path: circle(39%);
+  float: left;
 }
