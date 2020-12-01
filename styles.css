@@ -85,6 +85,7 @@ a:hover {
   bottom: 24px;
   right: 24px;
   z-index: 99;
+  cursor: pointer;
   border: #666;
   outline: none;
   background-color: #111;
@@ -100,7 +101,7 @@ a:hover {
 }
 
 #btnTop:hover {
-  background: radial-gradient(#444, #000);
+  background: radial-gradient(#333, #111);
 }
 
 #btnTop > div {
