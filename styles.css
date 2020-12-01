@@ -98,12 +98,16 @@ a:hover {
   transition-duration: 0.25s;
   text-align: center;
   box-shadow: 2px 2px #181818;
-  align-items: center;
-  justify-content: center;
 }
 
 #btnTop:hover {
   background: radial-gradient(#444, #000);
+}
+
+#btnTop > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #btnTop a {
