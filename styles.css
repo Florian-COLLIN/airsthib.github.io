@@ -98,27 +98,16 @@ a:hover {
   transition-duration: 0.25s;
   text-align: center;
   box-shadow: 2px 2px #181818;
-  font-weight: normal;
-  vertical-align: middle;
 }
 
 #btnTop:hover {
-  background-color: radial-gradient(#444, #000);
+  background: radial-gradient(#444, #000);
 }
 
 #btnTop a {
   color: #bbb;
-  position: absolute;
-  text-align: center;
-  vertical-align: middle !important;
 }
 
-#btnTop a:before {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 #btnTop a:hover {
   font-weight: 300;
@@ -126,16 +115,7 @@ a:hover {
 }
 
 #btnTop a i {
-  position: absolute;
   text-align: center;
-  vertical-align: middle !important;
-}
-
-#btnTop a i:before { 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .btn {
