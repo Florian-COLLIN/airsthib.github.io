@@ -90,17 +90,17 @@ a:hover {
   background-color: #111;
   color: #bbb;
   cursor: pointer;
-  height: 1.6rem;
-  width: 1.6rem;
+  height: 2rem;
+  width: 2rem;
   border-radius: 50%;
   font-size: 1rem;
-  transition-duration: 0.5s;
+  transition-duration: 0.25s;
   text-align: center;
   box-shadow: 2px 2px #181818;
 }
 
 #btnTop:hover {
-  background-color: #000;
+  background-color: radial-gradient(#444, #000);
 }
 
 #btnTop a {
