@@ -136,6 +136,28 @@ a:hover {
   color: #222;
 }
 
+.btn-outline-blue {
+  border: 1px solid #2573b8;
+  color: #2573b8;
+  background: #222;
+}
+
+.btn-outline-blue:hover {
+  background-color: #2573b8;
+  color: #fff;
+}
+
+.btn-outline-orange {
+  border: 1px solid #f16666;
+  color: #f16666;
+  background: #222;
+}
+
+.btn-outline-orange:hover {
+  background-color: #f16666;
+  color: #fff;
+}
+
 .separator {
   margin-right: 0.5rem;
 }
