@@ -99,10 +99,6 @@ a:hover {
   box-shadow: 2px 2px #181818;
 }
 
-#btnTop span {
-  position: relative;
-}
-
 #btnTop i {
   position: absolute;
   top: 50%;
