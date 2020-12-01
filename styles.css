@@ -86,7 +86,6 @@ a:hover {
   right: 24px;
   z-index: 99;
   cursor: pointer;
-  border: #666;
   outline: none;
   background-color: #111;
   color: #bbb;
@@ -96,12 +95,12 @@ a:hover {
   padding: 0.1rem;
   transition-duration: 0.25s;
   text-align: center;
-  vertical-align: middle;
+  vertical-align: middle !important;
   box-shadow: 2px 2px #181818;
 }
 
 #btnTop:hover {
-  background: radial-gradient(#333, #111);
+  background: radial-gradient(#333, #222);
 }
 
 .btn {
