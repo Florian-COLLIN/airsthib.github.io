@@ -114,6 +114,10 @@ a:hover {
   font-weight: 300;
 }
 
+.btn-lg {
+  font-size: 1.2rem;
+}
+
 .btn:hover {
   font-weight: 300;
 }
@@ -148,6 +152,17 @@ a:hover {
 
 .btn-outline-orange:hover {
   background-color: #f16600;
+  color: #fff;
+}
+
+.btn-outline-red {
+  border: 1px solid #cc26626;
+  color: #cc2626;
+  background: #222;
+}
+
+.btn-outline-red:hover {
+  background-color: #cc2626;
   color: #fff;
 }
 
