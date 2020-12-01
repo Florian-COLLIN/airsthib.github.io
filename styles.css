@@ -95,18 +95,8 @@ a:hover {
   padding: 0.2rem;
   transition-duration: 0.25s;
   text-align: center;
-  box-shadow: 2px 2px #181818;
-}
-
-#btnTop:hover {
-  background: radial-gradient(#444, #000);
-  font-weight: 300;
-  color: #fff;
-}
-
-#btnTop i {
-  text-align: center;
   vertical-align: middle;
+  box-shadow: 2px 2px #181818;
 }
 
 .btn {
