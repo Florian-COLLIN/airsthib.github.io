@@ -3,10 +3,6 @@
   src: url("SourceSansPro-Regular.otf");
 }
 
-html {
-  height: 400%;
-}
-
 html, body {
   margin: 0px;
   padding: 0px;
@@ -38,10 +34,13 @@ h2 {
 
 .container {
   padding: 0;
-  height: 25%;
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-start;
+}
+
+.welcomeContainer {
+  height: 100%;
 }
 
 .resumeDiv {
