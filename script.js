@@ -14,7 +14,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    btnTop.style.display = "inline-block";
+    btnTop.style.display = "block";
   } else {
     btnTop.style.display = "none";
   }
