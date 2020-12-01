@@ -82,8 +82,8 @@ a:hover {
 #btnTop {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 24px;
+  right: 24px;
   z-index: 99;
   border: #666;
   outline: none;
@@ -97,6 +97,7 @@ a:hover {
   transition-duration: 0.25s;
   text-align: center;
   box-shadow: 2px 2px #181818;
+  font-weight: normal;
 }
 
 #btnTop:hover {
