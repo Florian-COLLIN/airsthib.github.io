@@ -104,12 +104,6 @@ a:hover {
   background: radial-gradient(#444, #000);
 }
 
-#btnTop > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 #btnTop a {
   color: #bbb;
 }
