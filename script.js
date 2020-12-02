@@ -21,7 +21,7 @@ function scrollFunction() {
 }
 
 var btnMenu = document.getElementsById("btnMenu");
-var summaryDiv = documentn.getElementByClassName("summaryDiv");
+var summaryDiv = document.getElementByClassName("summaryDiv");
 var i;
 
 for (i = 0; i < btnMenu.length; i++) {
