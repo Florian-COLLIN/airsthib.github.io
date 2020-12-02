@@ -21,13 +21,13 @@ function scrollFunction() {
 }
 
 function openMenu() {
-    var btnMenu = document.getElementsById("btnMenu");
-    var summaryDiv = document.getElementById("summaryDiv");
-    if (summaryDiv.style.width === "0") {
-        summaryDiv.style.width = "12rem";
-        btnMenu.style.transform == "rotate(0deg)";
-    } else {
-        summaryDiv.style.width = "0";
-        btnMenu.style.transform == "rotate(180deg)";
-    }
+    document.getElementById("summaryDiv").style.width = "12rem";
+    document.getElementsById("btnMenu").style.transform = "rotate(0deg)";
+    document.getElementsById("btnMenu").onclick = "closeMenu()";
+}
+
+function closeMenu() {
+    document.getElementById("summaryDiv").style.width = "0";
+    document.getElementsById("btnMenu").style.transform = "rotate(180deg)";
+    document.getElementsById("btnMenu").onclick = "openMenu()";
 }
