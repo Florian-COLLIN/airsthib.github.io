@@ -60,6 +60,7 @@ h2 {
   display: inline-block;
   align-self: flex-end;
   flex: 1;
+  display: none;
 }
 
 .summaryDiv h2 {
