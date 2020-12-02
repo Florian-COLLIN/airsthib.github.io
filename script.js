@@ -20,10 +20,9 @@ function scrollFunction() {
   }
 }
 
-var btnMenu = document.getElementsById("btnMenu");
-var summaryDiv = document.getElementById("summaryDiv");
-
 function openMenu() {
+    var btnMenu = document.getElementsById("btnMenu");
+    var summaryDiv = document.getElementById("summaryDiv");
     if (summaryDiv.style.width === "0") {
         summaryDiv.style.width = "12rem";
         btnMenu.style.transform == "rotate(0deg)";
@@ -32,14 +31,3 @@ function openMenu() {
         btnMenu.style.transform == "rotate(180deg)";
     }
 }
-
-btnMenu[0].addEventListener("click", function () { 
-            this.classList.toggle("active"); 
-            if (summaryDiv.style.display === "block") { 
-                summaryDiv.style.display = "none";             
-                btnMenu.style.transform = "rotate(0deg)";
-            } else { 
-                summaryDiv.style.display = "block";
-                btnMenu.style.transform = "rotate(180deg)";
-            } 
-        }); 
