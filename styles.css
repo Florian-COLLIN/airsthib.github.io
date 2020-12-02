@@ -80,14 +80,15 @@ a:hover {
 
 #btnTop {  
   bottom: 2rem;
+  display: none;
 }
 
 #btnMenu {  
   bottom: 1rem;
+  display: block;
 }
 
 #btnTop, #btnMenu {
-  display: none;
   position: fixed;
   right: 1rem;
   z-index: 99;
