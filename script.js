@@ -21,17 +21,17 @@ function scrollFunction() {
 }
 
 var btnMenu = document.getElementsById("btnMenu");
-var content = documentn.getElementByClassName("summaryDiv");
+var summaryDiv = documentn.getElementByClassName("summaryDiv");
 var i;
 
 for (i = 0; i < btnMenu.length; i++) {
-  coll[i].addEventListener("click", function() {
+  btnMenu[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    if (content.style.display === "block") {
-      content.style.display = "none";
+    if (summaryDiv.style.display === "block") {
+      summaryDiv.style.display = "none";
       btnMenu.style.transform = "rotate(0deg)";
     } else {
-      content.style.display = "block";
+      summaryDiv.style.display = "block";
       btnMenu.style.transform = "rotate(180deg)";
 
     }
