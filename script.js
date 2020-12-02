@@ -29,8 +29,11 @@ for (i = 0; i < btnMenu.length; i++) {
     this.classList.toggle("active");
     if (content.style.display === "block") {
       content.style.display = "none";
+      btnMenu.style.transform = "rotate(0deg)";
     } else {
       content.style.display = "block";
+      btnMenu.style.transform = "rotate(180deg)";
+
     }
   });
 }
