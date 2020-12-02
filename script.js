@@ -21,7 +21,7 @@ function scrollFunction() {
 }
 
 var btnMenu = document.getElementsById("btnMenu");
-var summaryDiv = document.getElementByClassName("summaryDiv");
+var summaryDiv = document.getElementById("summaryDiv");
 
 btnMenu[0].addEventListener("click", function () { 
             this.classList.toggle("active"); 
