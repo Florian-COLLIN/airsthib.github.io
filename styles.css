@@ -78,11 +78,18 @@ a:hover {
   font-weight: bold;
 }
 
-#btnTop {
+#btnTop {  
+  bottom: 2rem;
+}
+
+#btnMenu {  
+  bottom: 1rem;
+}
+
+#btnTop, #btnMenu {
   display: none;
   position: fixed;
-  bottom: 24px;
-  right: 24px;
+  right: 1rem;
   z-index: 99;
   cursor: pointer;
   outline: none;
@@ -97,11 +104,11 @@ a:hover {
   vertical-align: middle !important;
 }
 
-#btnTop:hover {
+#btnTop:hover, #btnMenu:hover {
   background-color: radial-gradient(#383838, #282828);
 }
 
-#btnTop i {
+#btnTop i, #btnMenu i {
   position: absolute;
   top: 50%;
   left: 50%;
