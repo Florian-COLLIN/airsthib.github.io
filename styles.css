@@ -38,6 +38,7 @@ h2 {
   flex-wrap: nowrap;
   justify-content: flex-start;
   opacity: 0.5;
+  transition-duration: 1s;
 }
 
 .welcomeContainer {
@@ -61,7 +62,7 @@ h2 {
   position: fixed;
   right: 0;
   top: 0;
-  transition-duration: 0.5s;
+  transition-duration: 1s;
   transition-timing-function: ease;
 }
 
@@ -89,7 +90,7 @@ a:hover {
 #btnMenu {  
   bottom: 1rem;
   display: block;
-  transition-duration: 0.5s;
+  transition-duration: 1s;
   transition-timing-function: ease;
   transform: rotate(0deg);
 }
