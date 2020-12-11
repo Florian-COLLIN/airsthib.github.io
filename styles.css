@@ -64,6 +64,7 @@ h2 {
   top: 0;
   transition-duration: 1s;
   transition-timing-function: ease;
+  opacity: 1;
 }
 
 .summaryDiv h2 {
