@@ -61,6 +61,7 @@ h2 {
   right: 0;
   top: 0;
   transition-duration: 0.5s;
+  transition-timing-function: ease
 }
 
 .summaryDiv h2 {
@@ -88,6 +89,7 @@ a:hover {
   bottom: 1rem;
   display: block;
   transition-duration: 0.5s;
+  transition-timing-function: ease
   transform: rotate(0deg);
 }
 
