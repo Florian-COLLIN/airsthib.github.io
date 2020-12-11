@@ -27,7 +27,7 @@ function openMenu() {
 }
 
 function closeMenu() {
-    document.getElementById("summaryDiv").style.width = "0";
+    document.getElementById("summaryDiv").style.width = "-12rem";
     document.getElementsById("btnMenu").style.transform = "rotate(180deg)";
     document.getElementsById("btnMenu").onclick = "openMenu()";
 }
