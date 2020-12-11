@@ -37,6 +37,7 @@ h2 {
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-start;
+  opacity: 0.5;
 }
 
 .welcomeContainer {
