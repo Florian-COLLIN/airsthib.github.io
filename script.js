@@ -25,7 +25,7 @@ function openMenu() {
     document.getElementById("summaryDiv").style.opacity = "1";
     document.getElementById("btnMenu").style.transform = "rotate(0deg)";
     document.getElementById("btnMenu").setAttribute("onclick", "closeMenu()");
-    document.getElementsByClassName("container").opacity = "0.5";
+    document.getElementsByClassName("container").style.opacity = "0.5";
 }
 
 function closeMenu() {
@@ -33,5 +33,5 @@ function closeMenu() {
     document.getElementById("summaryDiv").style.opacity = "0";
     document.getElementById("btnMenu").style.transform = "rotate(180deg)";
     document.getElementById("btnMenu").setAttribute("onclick", "openMenu()");
-    document.getElementsByClassName("container").opacity = "1";
+    document.getElementsByClassName("container").style.opacity = "1";
 }
