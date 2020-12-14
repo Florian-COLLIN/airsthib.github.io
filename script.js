@@ -42,7 +42,7 @@ var xTDF = setInterval(function() {
 
   var nowTDF = new Date().getTime();
 
-  var distanceTDF = countDownDate - now;
+  var distanceTDF = countDownDateTDF - now;
 
   var daysTDF = Math.floor(distanceTDF / (1000 * 60 * 60 * 24));
   var hoursTDF = Math.floor((distanceTDF % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -66,7 +66,7 @@ var xGiro = setInterval(function() {
 
   var nowGiro = new Date().getTime();
 
-  var distanceGiro = countDownDate - now;
+  var distanceGiro = countDownDateGiro - now;
 
   var daysGiro = Math.floor(distanceGiro / (1000 * 60 * 60 * 24));
   var hoursGiro = Math.floor((distanceGiro % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -90,7 +90,7 @@ var xVuelta = setInterval(function() {
 
   var nowVuelta = new Date().getTime();
 
-  var distanceVuelta = countDownDate - now;
+  var distanceVuelta = countDownDateVuelta - now;
 
   var daysVuelta = Math.floor(distanceVuelta / (1000 * 60 * 60 * 24));
   var hoursVuelta = Math.floor((distanceVuelta % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
