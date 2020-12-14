@@ -212,13 +212,28 @@ a:hover {
   margin-top: 4rem;
 }
 
-.tdf {
-  border: 1px solid #fc3;
+.tdf, .giro, .vuelta {
   border-radius: 8px;
   background: #222;
-  color: #fc3;
   width: 16rem;
   font-size: 1.2rem;
   text-align: center;
   transform: capitalize;
+}
+
+.tdf {  
+  border: 1px solid #fc3;
+  color: #fc3;
+}
+
+.giro {
+  border: 1px solid #ec8;
+  color: #ec8;
+  
+}
+
+.vuelta {
+  border: 1px solid #cc2626;
+  color: #cc2626;
+  
 }
