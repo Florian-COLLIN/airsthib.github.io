@@ -238,3 +238,9 @@ a:hover {
   color: #cc2626;
   
 }
+
+.cycling-countdowns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
