@@ -36,23 +36,23 @@ function closeMenu() {
 
 //TDF Countdown
 
-var countDownDate = new Date("Jun 26, 2021 11:15:00").getTime();
+var countDownDateTDF = new Date("Jun 26, 2021 11:15:00").getTime();
 
-var x = setInterval(function() {
+var xTDF = setInterval(function() {
 
-  var now = new Date().getTime();
+  var nowTDF = new Date().getTime();
 
-  var distance = countDownDate - now;
+  var distanceTDF = countDownDate - now;
 
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  var daysTDF = Math.floor(distanceTDF / (1000 * 60 * 60 * 24));
+  var hoursTDF = Math.floor((distanceTDF % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutesTDF = Math.floor((distanceTDF % (1000 * 60 * 60)) / (1000 * 60));
+  var secondsTDF = Math.floor((distanceTDF % (1000 * 60)) / 1000);
 
-  document.getElementById("countdown-tdf").innerHTML = "D-" + days + " " + hours + ":"
-  + minutes + ":" + seconds;
+  document.getElementById("countdown-tdf").innerHTML = "D-" + daysTDF + " " + hoursTDF + ":"
+  + minutesTDF + ":" + secondsTDF;
 
-  if (distance < 0) {
+  if (distanceTDF < 0) {
     clearInterval(x);
     document.getElementById("countdown-tdf").innerHTML = "Started !";
   }
@@ -60,23 +60,23 @@ var x = setInterval(function() {
 
 //Giro Countdown
 
-var countDownDate = new Date("May 8, 2021 11:00:00").getTime();
+var countDownDateGiro = new Date("May 8, 2021 11:00:00").getTime();
 
-var x = setInterval(function() {
+var xGiro = setInterval(function() {
 
-  var now = new Date().getTime();
+  var nowGiro = new Date().getTime();
 
-  var distance = countDownDate - now;
+  var distanceGiro = countDownDate - now;
 
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  var daysGiro = Math.floor(distanceGiro / (1000 * 60 * 60 * 24));
+  var hoursGiro = Math.floor((distanceGiro % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutesGiro = Math.floor((distanceGiro % (1000 * 60 * 60)) / (1000 * 60));
+  var secondsGiro = Math.floor((distanceGiro % (1000 * 60)) / 1000);
 
-  document.getElementById("countdown-giro").innerHTML = "D-" + days + " " + hours + ":"
-  + minutes + ":" + seconds;
+  document.getElementById("countdown-giro").innerHTML = "D-" + daysGiro + " " + hoursGiro + ":"
+  + minutesGiro + ":" + secondsGiro;
 
-  if (distance < 0) {
+  if (distanceGiro < 0) {
     clearInterval(x);
     document.getElementById("countdown-giro").innerHTML = "Started !";
   }
@@ -84,23 +84,23 @@ var x = setInterval(function() {
 
 //Vuelta Countdown
 
-var countDownDate = new Date("Aug 14, 2021 11:00:00").getTime();
+var countDownDateVuelta = new Date("Aug 14, 2021 11:00:00").getTime();
 
-var x = setInterval(function() {
+var xVuelta = setInterval(function() {
 
-  var now = new Date().getTime();
+  var nowVuelta = new Date().getTime();
 
-  var distance = countDownDate - now;
+  var distanceVuelta = countDownDate - now;
 
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  var daysVuelta = Math.floor(distanceVuelta / (1000 * 60 * 60 * 24));
+  var hoursVuelta = Math.floor((distanceVuelta % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutesVuelta = Math.floor((distanceVuelta % (1000 * 60 * 60)) / (1000 * 60));
+  var secondsVuelta = Math.floor((distanceVuelta % (1000 * 60)) / 1000);
 
-  document.getElementById("countdown-vuelta").innerHTML = "D-" + days + " " + hours + ":"
-  + minutes + ":" + seconds;
+  document.getElementById("countdown-vuelta").innerHTML = "D-" + daysVuelta + " " + hoursVuelta + ":"
+  + minutesVuelta + ":" + secondsVuelta;
 
-  if (distance < 0) {
+  if (distanceVuelta < 0) {
     clearInterval(x);
     document.getElementById("countdown-vuelta").innerHTML = "Started !";
   }
