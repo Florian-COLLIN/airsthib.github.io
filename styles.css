@@ -217,7 +217,7 @@ a:hover {
   background: #222;
   font-size: 1.2rem;
   text-align: center;
-  transform: capitalize;
+  text-transform: uppercase;
   margin: 0.5rem;
   flex: 1 1 16rem;
   display: flex;
@@ -239,6 +239,11 @@ a:hover {
   border: 1px solid #cc2626;
   color: #cc2626;
   
+}
+
+.countdown {
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
 .cycling-countdowns {
