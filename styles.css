@@ -215,11 +215,11 @@ a:hover {
 .tdf, .giro, .vuelta {
   border-radius: 8px;
   background: #222;
-  width: 16rem;
   font-size: 1.2rem;
   text-align: center;
   transform: capitalize;
   margin: 0.5rem 0 0.5rem 0;
+  flex: 1 16rem;
 }
 
 .tdf {  
@@ -242,5 +242,5 @@ a:hover {
 .cycling-countdowns {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
