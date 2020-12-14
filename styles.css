@@ -219,7 +219,9 @@ a:hover {
   text-align: center;
   transform: capitalize;
   margin: 0.5rem;
-  flex: 1 16rem;
+  flex: 1 1 16rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .tdf {  
@@ -243,4 +245,6 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
