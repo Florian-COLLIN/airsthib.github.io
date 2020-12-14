@@ -211,3 +211,10 @@ a:hover {
 #end {
   margin-top: 4rem;
 }
+
+.tdf {
+  border: 1px solid #fc3;
+  border-radius: 3px;
+  background: #222;
+  color: #fc3;
+}
