@@ -36,7 +36,7 @@ function closeMenu() {
 
 //TDF Countdown
 
-var countDownDateTDF = new Date("Jun 26, 2021 11:15:00").getTime();
+var countDownDateTDF = new Date("Jun 26, 2021 12:15:00").getTime();
 
 var xTDF = setInterval(function() {
 
@@ -60,7 +60,7 @@ var xTDF = setInterval(function() {
 
 //Giro Countdown
 
-var countDownDateGiro = new Date("May 8, 2021 11:00:00").getTime();
+var countDownDateGiro = new Date("May 8, 2021 12:00:00").getTime();
 
 var xGiro = setInterval(function() {
 
@@ -84,7 +84,7 @@ var xGiro = setInterval(function() {
 
 //Vuelta Countdown
 
-var countDownDateVuelta = new Date("Aug 14, 2021 11:00:00").getTime();
+var countDownDateVuelta = new Date("Aug 14, 2021 12:00:00").getTime();
 
 var xVuelta = setInterval(function() {
 
