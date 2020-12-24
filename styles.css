@@ -10,7 +10,7 @@ html, body {
 
 body {
   height: 100%;
-  background: #222;
+  /*background: #222;*/
   color: #fff;
   font-family: "SourceSansPro", sans-serif;
   font-weight: 300;
@@ -254,4 +254,10 @@ a:hover {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+/* CHRISTMAS */
+
+body {
+  repeating-linear-gradient(45deg, transparent, transparent 10px, #cc2626 10px, #cc2626 20px), linear-gradient(to bottom, #eee, #cc2626);
 }
