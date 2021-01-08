@@ -3,5 +3,6 @@
   clip-path: polygon(0% 0%, 0% 100%, 100% 80%, 100% 0%);
   border-bottom-left-radius: 4rem;
   width: 100%;
-  height: 12rem;
+  height: 36rem;
+  margin: 0;
 }
