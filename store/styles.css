@@ -1,9 +1,6 @@
 .wrapper {
-  width: 500px;
+  width: 100%;
   height: 500px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 5px;
   background-image: linear-gradient(to top, #6bf 0%, #6ce 100%);
