@@ -1,3 +1,5 @@
 .wave {
   background: #6bf;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 80%, 100% 0%);
+  border-bottom-left-radius: 4rem;
 }
