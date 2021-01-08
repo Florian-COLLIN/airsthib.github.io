@@ -1,27 +1,29 @@
-#wave {
-  height: 70px;
-  width: 50%;
-  background: #6bf;
-}
-#wave:before {
-  content: "";
-  display: block;
+.wrapper {
+  width: 500px;
+  height: 500px;
   position: absolute;
-  border-radius: 100% 50%;
-  width: 25%;
-  height: 80px;
-  background-color: white;
-  right: -5px;
-  top: 40px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #6bf 0%, #6ce 100%);
+  overflow: hidden;
 }
-#wave:after {
-  content: "";
-  display: block;
+
+.wave {
+  width: 1000px;
+  height: 1025px;
   position: absolute;
-  border-radius: 100% 50%;
-  width: 25%;
-  height: 70px;
-  background-color: #6bf;
-  left: 0;
-  top: 27px;
+  top: -25%;
+  left: 50%;
+  margin-left: -500px;
+  margin-top: -500px;
+  border-radius: 35%;
+  background: rgba(255, 255, 255, .75);
+  animation: wave 15s infinite linear;
+}
+
+@keyframes wave {
+  from { transform: rotate(0deg);}
+  from { transform: rotate(360deg);}
 }
