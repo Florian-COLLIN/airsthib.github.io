@@ -1,15 +1,14 @@
 #wave {
-  position: relative;
   height: 70px;
-  width: 600px;
-  background: #e0efe3;
+  width: 50%;
+  background: #6bf;
 }
 #wave:before {
   content: "";
   display: block;
   position: absolute;
   border-radius: 100% 50%;
-  width: 340px;
+  width: 25%;
   height: 80px;
   background-color: white;
   right: -5px;
@@ -20,9 +19,9 @@
   display: block;
   position: absolute;
   border-radius: 100% 50%;
-  width: 300px;
+  width: 25%;
   height: 70px;
-  background-color: #e0efe3;
+  background-color: #6bf;
   left: 0;
   top: 27px;
 }
