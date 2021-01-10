@@ -258,10 +258,23 @@ a:hover {
 
 /* CHRISTMAS */
 
-/*
-
-body {
-  background: repeating-linear-gradient(45deg, #990000, #990000 48px, #222 48px, #222 144px);
+@keyframes snowball {
+  from{top:0;}
+  to{bottom:0;}
 }
 
-*/
+.snowball {
+  position: absolute;
+  z-index: 99;
+  animation-name: snowball;
+  animation-iteration-count: infinite;
+  height: 4px;
+  width: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.snowball-1 {
+  left: 2px;
+}
+.s
