@@ -264,7 +264,7 @@ a:hover {
 }
 
 .snowball {
-  position: absolute;
+  position: fixed;
   z-index: 99;
   animation-name: snowball;
   animation-iteration-count: infinite;
