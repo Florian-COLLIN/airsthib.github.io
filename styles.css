@@ -268,13 +268,14 @@ a:hover {
   z-index: 99;
   animation-name: snowball;
   animation-iteration-count: infinite;
-  height: 4px;
-  width: 4px;
+  height: 8px;
+  width: 8px;
   background-color: #fff;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .snowball-1 {
   left: 2px;
+  animation-duration: 8s;
 }
-.s
+
