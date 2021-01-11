@@ -268,7 +268,7 @@ a:hover {
   z-index: 99;
   animation-name: snowball;
   animation-iteration-count: infinite;
-  animation-speed: linear;
+  animation-timing-function: linear;
   height: 8px;
   width: 8px;
   background-color: #fff;
