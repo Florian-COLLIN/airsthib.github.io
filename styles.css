@@ -211,6 +211,15 @@ a:hover {
   margin-top: 12rem;
   float: left;
   border-radius: 50%;
+  transition-duration: 0.5s;
+}
+
+logo:hover {
+  height: 20rem;
+  width: 20rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 10rem;
 }
 
 #end {
