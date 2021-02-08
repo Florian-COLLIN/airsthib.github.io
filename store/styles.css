@@ -1,11 +1,11 @@
 body {
   overflow: hidden;
-  background: #5ad;
+  background: #2573b8;
 }
 
 .wave {
-  border-bottom: 48px solid #2573b8;
-  border-bottom-right-radius: 50% 16%;
+  border-bottom: 48px solid #5ad;
+  border-bottom-right-radius: 48% 64%;
   border-bottom-left-radius: 32% 12%;
   position: absolute;
   top: -16rem;
