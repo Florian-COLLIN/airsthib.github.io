@@ -24,8 +24,10 @@ body {
   padding: 0;
   margin: 0;
   transform: rotate(-16deg);
+  z-index: 1;
 }
 
 body div {
   margin: 1rem;
+  z-index: 8;
 }
