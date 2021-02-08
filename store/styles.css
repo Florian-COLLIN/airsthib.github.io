@@ -1,16 +1,17 @@
 body {
   overflow: hidden;
+  background: #5ad;
 }
 
 .wave {
-  border-bottom: 64px solid #2573b8;
+  border-bottom: 48px solid #2573b8;
   border-bottom-right-radius: 50% 16%;
   border-bottom-left-radius: 32% 12%;
   position: absolute;
   top: -16rem;
   height: 36rem;
-  width: 120%;
-  left: -5%;
+  width: 160%;
+  left: -20%;
   padding: 0;
   margin: 0;
   transform: rotate(-16deg);
