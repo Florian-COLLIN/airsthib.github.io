@@ -15,8 +15,10 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     btnTop.style.opacity = "1";
+    btnTop.style.bottom = "4.4rem";
   } else {
     btnTop.style.opacity = "0";
+    btnTop.style.bottom = "-2.4rem";
   }
 }
 
