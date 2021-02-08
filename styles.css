@@ -203,10 +203,11 @@ a:hover {
 
 .logo {
   height: 16rem;
+  width: 16rem;
+  object-fit: cover;
   margin: 0.5rem;
   margin-left: 0;
   margin-top: 12rem;
-  clip-path: circle(39%);
   float: left;
 }
 
