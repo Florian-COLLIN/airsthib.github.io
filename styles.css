@@ -86,6 +86,7 @@ a:hover {
   bottom: 4.4rem;
   display: table-cell;
   opacity: 0;
+  transition-duration: 0.5s;
 }
 
 #btnMenu {  
