@@ -259,8 +259,8 @@ a:hover {
 /* CHRISTMAS */
 
 @keyframes snowball {
-  from{top:0px;}
-  to{bottom:0px;}
+  from{top:-8px;}
+  to{top:calc(100vh);}
 }
 
 .snowball {
