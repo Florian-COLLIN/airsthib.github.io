@@ -209,6 +209,7 @@ a:hover {
   margin-left: 0;
   margin-top: 12rem;
   float: left;
+  border-radius: 50%;
 }
 
 #end {
