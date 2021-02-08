@@ -14,9 +14,9 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    btnTop.style.display = "table-cell";
+    btnTop.style.opacity = "1";
   } else {
-    btnTop.style.display = "none";
+    btnTop.style.opacity = "0";
   }
 }
 
