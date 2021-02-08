@@ -214,7 +214,7 @@ a:hover {
   transition-duration: 0.5s;
 }
 
-logo:hover {
+.logo:hover {
   height: 20rem;
   width: 20rem;
   margin-left: 2rem;
