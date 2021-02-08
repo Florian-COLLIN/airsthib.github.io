@@ -83,7 +83,7 @@ a:hover {
 }
 
 #btnTop {  
-  bottom: -2.4rem; /* normally 4.4rem */
+  bottom: -3.2rem; /* normally 4.4rem */
   display: table-cell;
   opacity: 0;
   transition-duration: 0.5s;
