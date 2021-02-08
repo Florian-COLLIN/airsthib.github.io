@@ -1,8 +1,9 @@
 .wave {
-  border: 16px solid #2573b8;
+  border-bottom: 16px solid #2573b8;
   border-bottom-right-radius: 256px 64px;
   position: absolute;
   top: -16rem;
-  width: 36rem;
+  height: 36rem;
+  max-width: 100%;
   translate: rotate(16deg);
 }
