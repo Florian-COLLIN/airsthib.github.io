@@ -13,13 +13,13 @@ btnTop = document.getElementById("btnTop");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    btnTop.style.opacity = "1";
-    btnTop.style.bottom = "4.4rem";
-  } else {
-    btnTop.style.opacity = "0";
-    btnTop.style.bottom = "-3.2rem";
-  }
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        btnTop.style.bottom = "4.4rem";
+        btnTop.style.opacity = "1";
+    } else {
+        btnTop.style.bottom = "-3.2rem";
+        btnTop.style.opacity = "0";
+    }
 }
 
 function openMenu() {
