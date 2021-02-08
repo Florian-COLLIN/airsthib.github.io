@@ -84,7 +84,8 @@ a:hover {
 
 #btnTop {  
   bottom: 4.4rem;
-  display: none;
+  display: table-cell;
+  opacity: 0;
 }
 
 #btnMenu {  
