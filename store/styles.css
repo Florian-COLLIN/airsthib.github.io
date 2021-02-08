@@ -11,8 +11,9 @@ body {
   color: #fff;
 }
 
-.wave {
+.curve {
   border: 48px solid #5ad;
+  border-top: none;
   border-bottom-right-radius: 48% 64%;
   border-bottom-left-radius: 32% 12%;
   position: absolute;
