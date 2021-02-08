@@ -273,6 +273,7 @@ a:hover {
   width: 8px;
   background-color: #fff;
   border-radius: 8px;
+  top: -8px;
 }
 
 .snowball-1 {
