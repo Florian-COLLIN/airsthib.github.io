@@ -1,5 +1,5 @@
 body {
-  overflow-y: hidden;
+  overflow-x: hidden;
   background: #2573b8;
 }
 
@@ -8,8 +8,8 @@ body {
   border-bottom-right-radius: 48% 64%;
   border-bottom-left-radius: 32% 12%;
   position: absolute;
-  top: -36%;
-  height: 84%;
+  top: -24rem;
+  height: 40rem;
   width: 160%;
   left: -40%;
   padding: 0;
