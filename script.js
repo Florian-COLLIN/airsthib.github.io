@@ -18,7 +18,7 @@ function scrollFunction() {
     btnTop.style.bottom = "4.4rem";
   } else {
     btnTop.style.opacity = "0";
-    btnTop.style.bottom = "-2.4rem";
+    btnTop.style.bottom = "-3.2rem";
   }
 }
 
