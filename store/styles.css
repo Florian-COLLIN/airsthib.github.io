@@ -8,6 +8,7 @@ body {
   background: #2573b8;
   font-family: "SourceSansPro", sans-serif;
   font-weight: 300;
+  color: #fff;
 }
 
 .wave {
@@ -22,4 +23,8 @@ body {
   padding: 0;
   margin: 0;
   transform: rotate(-16deg);
+}
+
+body div {
+  margin: 1rem;
 }
